@@ -1,0 +1,29 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGM-edu/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [
+    "430",
+    "IGME430"
+  ],
+  "author": "Justin Morris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JGM-edu/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/JGM-edu/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
